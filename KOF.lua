@@ -1374,7 +1374,7 @@ local function runSpamLoop()
 					if outputPayload ~= "" then
 						globalMessageCounter = globalMessageCounter + 1
 						if globalMessageCounter % 5 == 0 then
-							send("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ [S C R I P T] BY Z E N [ THE COMEBACK OF Z E N ]...")
+							send("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ [S C R I P T] BY K O F [ THE COMEBACK OF K O F ]...")
 							task.wait(sp)
 						end
 						send(outputPayload)
