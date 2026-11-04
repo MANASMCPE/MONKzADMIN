@@ -512,7 +512,7 @@ mainStrk.Thickness = 1.8
 local mainHeader = Instance.new("TextLabel", main)
 mainHeader.Size = UDim2.new(1, -45, 0, 26)
 mainHeader.Position = UDim2.new(0, 14, 0, 6)
-mainHeader.Text = "<b>Z E N âš¡ SPAMMER</b>"
+mainHeader.Text = "<b>ARHAN¡ SPAMMER</b>"
 mainHeader.RichText = true
 mainHeader.Font = Enum.Font.GothamBlack
 mainHeader.TextSize = 10
@@ -1374,7 +1374,7 @@ local function runSpamLoop()
 					if outputPayload ~= "" then
 						globalMessageCounter = globalMessageCounter + 1
 						if globalMessageCounter % 5 == 0 then
-							send("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ [S C R I P T] BY Z E N [ THE COMEBACK OF Z E N ]...")
+							send("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ [S C R I P T] BY ARHAN [ THE COMEBACK OF ARHAN ]...")
 							task.wait(sp)
 						end
 						send(outputPayload)
