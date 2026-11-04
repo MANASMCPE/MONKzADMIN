@@ -15,9 +15,9 @@ local plr = Players.LocalPlayer
 math.randomseed(os.clock() ^ 3)
 
 --// FILE SYSTEM CONFIG FOR AUTO-SAVE KEY
-local folderName = "TRAITORSUISettings"
+local folderName = "ARHAN-SPAMMERUISettings"
 local fileName = folderName .. "/KeyAuth.txt"
-local correctKey = "TRAITORSISPOWER"
+local correctKey = "ARHAN-SPAMMERISPOWER"
 
 -- Helper functions for local mobile storage
 local function saveKeyLocally()
@@ -113,11 +113,11 @@ local blur = Instance.new("BlurEffect", Lighting)
 blur.Size = 0
 
 --// CLEAR PREVIOUS RENDERS
-if pgui:FindFirstChild("TRAITORS_NITRO_MATRIX") then
-	pgui["TRAITORS_NITRO_MATRIX"]:Destroy()
+if pgui:FindFirstChild("ARHAN-SPAMMER_NITRO_MATRIX") then
+	pgui["ARHAN-SPAMMER_NITRO_MATRIX"]:Destroy()
 end
 local gui = Instance.new("ScreenGui")
-gui.Name = "TRAITORS_NITRO_MATRIX"
+gui.Name = "ARHAN-SPAMMER_NITRO_MATRIX"
 gui.Parent = pgui
 gui.IgnoreGuiInset = true
 gui.ResetOnSpawn = false
@@ -200,11 +200,11 @@ end
 -- NEON BLUE PREMIUM WATERMARK
 -- ==================================================
 local watermark = Instance.new("TextLabel", gui)
-watermark.Name = "TRAITORS_Watermark"
+watermark.Name = "ARHAN-SPAMMER_Watermark"
 watermark.Size = UDim2.new(0, 180, 0, 25)
 watermark.Position = UDim2.new(1, -195, 1, -30)
 watermark.BackgroundTransparency = 1
-watermark.Text = "TRAITORS developments"
+watermark.Text = "ARHAN-SPAMMER developments"
 watermark.Font = Enum.Font.GothamBold
 watermark.TextSize = 11
 watermark.TextColor3 = Color3.fromRGB(0, 220, 255)
@@ -360,7 +360,7 @@ greetName.ZIndex = 6
 local desc1 = Instance.new("TextLabel", welcomeUI)
 desc1.Size = UDim2.new(1, -28, 0, 15)
 desc1.Position = UDim2.new(0, 14, 0, 54)
-desc1.Text = "ORIGINAL TRAITORS SPAM ENGINE"
+desc1.Text = "ORIGINAL ARHAN-SPAMMER SPAM ENGINE"
 desc1.Font = Enum.Font.GothamBlack
 desc1.TextColor3 = NeonPinkAccent
 desc1.TextSize = 9.5
@@ -384,9 +384,9 @@ dataStrk.Transparency = 1
 local terminalLog = Instance.new("TextLabel", dataFetchFrame)
 terminalLog.Size = UDim2.new(1, -10, 1, -10)
 terminalLog.Position = UDim2.new(0, 5, 0, 5)
-terminalLog.Text = "<font color='rgb(0,220,255)'><b>Made by TRAITORS. No tags.</b></font>\n" ..
+terminalLog.Text = "<font color='rgb(0,220,255)'><b>Made by ARHAN-SPAMMER. No tags.</b></font>\n" ..
 	"<font color='rgb(255,40,40)'>- Spammer so goated everyone copied it.\n" ..
-	"- That's why TRAITORS is the GoAT</font>\n\n" ..
+	"- That's why ARHAN-SPAMMER is the GoAT</font>\n\n" ..
 	"<font color='rgb(255,70,70)'>- If any of you guys try to crack or disrespect any RPM member, just know you are cooked..</font>"
 terminalLog.Font = Enum.Font.Code
 terminalLog.TextColor3 = CyberBlueHighlight
@@ -399,7 +399,7 @@ terminalLog.TextYAlignment = Enum.TextYAlignment.Top
 terminalLog.BackgroundTransparency = 1
 terminalLog.ZIndex = 7
 
--- PRIMARY OWNER: 1:TRAITORSGOTBANNEDlwl2
+-- PRIMARY OWNER: 1:ARHAN-SPAMMERGOTBANNEDlwl2
 local ownerSquare1 = Instance.new("Frame", welcomeUI)
 ownerSquare1.Size = UDim2.new(1, -28, 0, 42)
 ownerSquare1.Position = UDim2.new(0, 14, 0, 214)
@@ -424,7 +424,7 @@ Instance.new("UICorner", ownerImage1).CornerRadius = UDim.new(1, 0)
 local ownerMetaText1 = Instance.new("TextLabel", ownerSquare1)
 ownerMetaText1.Size = UDim2.new(1, -34, 0, 26)
 ownerMetaText1.Position = UDim2.new(0, 32, 0, 8)
-ownerMetaText1.Text = "TRAITORSGOTBANNEDlwl2\n<font color='rgb(140,130,160)'>owner</font>"
+ownerMetaText1.Text = "ARHAN-SPAMMERGOTBANNEDlwl2\n<font color='rgb(140,130,160)'>owner</font>"
 ownerMetaText1.Font = Enum.Font.GothamBlack
 ownerMetaText1.TextColor3 = TextLight
 ownerMetaText1.TextSize = 7.5
@@ -570,7 +570,7 @@ Instance.new("UICorner", widgetHeader).CornerRadius = UDim.new(0, 12)
 local chatTitle = Instance.new("TextLabel", widgetHeader)
 chatTitle.Size = UDim2.new(1, -35, 1, 0)
 chatTitle.Position = UDim2.new(0, 10, 0, 0)
-chatTitle.Text = "<b>TRAITORS CHAT MATRIX</b>"
+chatTitle.Text = "<b>ARHAN-SPAMMER CHAT MATRIX</b>"
 chatTitle.RichText = true
 chatTitle.Font = Enum.Font.GothamBlack
 chatTitle.TextColor3 = CyberBlueHighlight
@@ -1416,7 +1416,7 @@ toggle.Visible = false
 toggle.Size = UDim2.new(0, 48, 0, 48)
 toggle.Position = UDim2.new(0.5, -24, 0, 17)
 toggle.BackgroundColor3 = TranslucentBlack
-toggle.Text = "TRAITORS"
+toggle.Text = "ARHAN-SPAMMER"
 toggle.Font = Enum.Font.GothamBlack
 toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 toggle.TextSize = 13
@@ -1501,9 +1501,9 @@ end)
 local function applyIdentity()
 	if NameRemote then
 		pcall(function()
-			NameRemote:FireServer("RolePlayName", toSmallCaps("TRAITORSâš¡SPAMMER [Best SpammerðŸ¤¡ðŸ¥€]"))
+			NameRemote:FireServer("RolePlayName", toSmallCaps("ARHAN-SPAMMERâš¡SPAMMER [Best Spammer]"))
 			task.wait(0.2)
-			NameRemote:FireServer("RolePlayBio", toSmallCaps("TRAITORS H8R LAND PEðŸ¥´"))
+			NameRemote:FireServer("RolePlayBio", toSmallCaps("ARHAN-SPAMMER H8R LAND ´"))
 		end)
 	end
 end
@@ -1751,7 +1751,7 @@ local function launchDashboardCore(enableChat)
 		auraBtnStrk.Color = Color3.fromRGB(60, 40, 75)
 	end
 	evaluateGlobalServerAuras()
-	send("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ARHAN âš¡ SPAMMER LOADED!! >THE COMEBACK OF ARHANN< [ Most of spammers copied this spam ] this is the original { originated from TRAITORS }")
+	send("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ARHAN ¡ SPAMMER LOADED!! >THE COMEBACK OF ARHANN< [ Most of spammers copied this spam ] this is the original { originated from ARHAN-SPAMMER }")
 end
 
 startCodeOnlyBtn.MouseButton1Click:Connect(function()
