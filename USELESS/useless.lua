@@ -1,5 +1,5 @@
--- [ LeakD ] Luа Ѕсrірt Dеоbfuѕcаtеd By LеaκD
--- [ Source ] https://leakd.fr
+-- [ MONK ] Luа Ѕсrірt Dеоbfuѕcаtеd By MONK
+-- [ Source ] https://monk-scripts-novoline-loaderlua.vercel.app/
 
 local char = string.char
 local v1 = 2
